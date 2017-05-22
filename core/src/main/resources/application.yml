@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: core
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: sisfo
+server:
+  port: 16161
+  servlet-path: /core
