@@ -17,7 +17,7 @@ class CoreApplication{
             .select()
             .apis(RequestHandlerSelectors.basePackage("com.sisfo.controller"))
             .paths(PathSelectors.any())
-            .build()
+            .build()!!
 }
 
 fun main(args: Array<String>) {
